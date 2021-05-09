@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5A1C4243FE9249386B04F9B /* Pods_ReaddleTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8CA686446FB18F14481DCAA /* Pods_ReaddleTest.framework */; };
+		CD3CD36D263D78C600A2366D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3CD36C263D78C600A2366D /* AppDelegate.swift */; };
+		CD3CD36F263D78C600A2366D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3CD36E263D78C600A2366D /* SceneDelegate.swift */; };
+		CD3CD371263D78C600A2366D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3CD370263D78C600A2366D /* ViewController.swift */; };
+		CD3CD374263D78C600A2366D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3CD372263D78C600A2366D /* Main.storyboard */; };
+		CD3CD376263D78C700A2366D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD3CD375263D78C700A2366D /* Assets.xcassets */; };
+		CD3CD379263D78C700A2366D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3CD377263D78C700A2366D /* LaunchScreen.storyboard */; };
+		CD7D9F2C2641370F00FA12A1 /* client_359098432892-3n6nm1r3oakk1r4136uksa1kc9gsrldc.apps.googleusercontent.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD7D9F2B2641370F00FA12A1 /* client_359098432892-3n6nm1r3oakk1r4136uksa1kc9gsrldc.apps.googleusercontent.com.plist */; };
+		F24257132643FB75003E5DA4 /* RootListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24257122643FB75003E5DA4 /* RootListViewController.swift */; };
+		F24257162643FD7D003E5DA4 /* RootListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24257152643FD7D003E5DA4 /* RootListTableViewCell.swift */; };
+		F24257192644E4AE003E5DA4 /* ChildListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24257182644E4AE003E5DA4 /* ChildListViewController.swift */; };
+		F242571C2644E4C3003E5DA4 /* ChildListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F242571B2644E4C3003E5DA4 /* ChildListTableViewCell.swift */; };
+		F29CB8DC2645606B001E7D8B /* RootListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29CB8DB2645606B001E7D8B /* RootListCollectionViewCell.swift */; };
+		F29CB8DF26465F52001E7D8B /* ChildListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29CB8DE26465F51001E7D8B /* ChildListCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		94D0426EE6984554D146B883 /* Pods-ReaddleTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReaddleTest.debug.xcconfig"; path = "Target Support Files/Pods-ReaddleTest/Pods-ReaddleTest.debug.xcconfig"; sourceTree = "<group>"; };
+		AEDEE85F011E78A3562E3E59 /* Pods-ReaddleTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReaddleTest.release.xcconfig"; path = "Target Support Files/Pods-ReaddleTest/Pods-ReaddleTest.release.xcconfig"; sourceTree = "<group>"; };
+		CD3CD369263D78C600A2366D /* ReaddleTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReaddleTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3CD36C263D78C600A2366D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD3CD36E263D78C600A2366D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD3CD370263D78C600A2366D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD3CD373263D78C600A2366D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD3CD375263D78C700A2366D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD3CD378263D78C700A2366D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD3CD37A263D78C700A2366D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7D9F2B2641370F00FA12A1 /* client_359098432892-3n6nm1r3oakk1r4136uksa1kc9gsrldc.apps.googleusercontent.com.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "client_359098432892-3n6nm1r3oakk1r4136uksa1kc9gsrldc.apps.googleusercontent.com.plist"; sourceTree = "<group>"; };
+		D8CA686446FB18F14481DCAA /* Pods_ReaddleTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReaddleTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24257122643FB75003E5DA4 /* RootListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootListViewController.swift; sourceTree = "<group>"; };
+		F24257152643FD7D003E5DA4 /* RootListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootListTableViewCell.swift; sourceTree = "<group>"; };
+		F24257182644E4AE003E5DA4 /* ChildListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildListViewController.swift; sourceTree = "<group>"; };
+		F242571B2644E4C3003E5DA4 /* ChildListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildListTableViewCell.swift; sourceTree = "<group>"; };
+		F29CB8DB2645606B001E7D8B /* RootListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootListCollectionViewCell.swift; sourceTree = "<group>"; };
+		F29CB8DE26465F51001E7D8B /* ChildListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildListCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD3CD366263D78C600A2366D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A1C4243FE9249386B04F9B /* Pods_ReaddleTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AF2CD014D28C98D5A6EE854 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94D0426EE6984554D146B883 /* Pods-ReaddleTest.debug.xcconfig */,
+				AEDEE85F011E78A3562E3E59 /* Pods-ReaddleTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BF7B37382F0E79D7D5301D1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8CA686446FB18F14481DCAA /* Pods_ReaddleTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD3CD360263D78C600A2366D = {
+			isa = PBXGroup;
+			children = (
+				CD3CD36B263D78C600A2366D /* ReaddleTest */,
+				CD3CD36A263D78C600A2366D /* Products */,
+				2AF2CD014D28C98D5A6EE854 /* Pods */,
+				BF7B37382F0E79D7D5301D1B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD3CD36A263D78C600A2366D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD3CD369263D78C600A2366D /* ReaddleTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD3CD36B263D78C600A2366D /* ReaddleTest */ = {
+			isa = PBXGroup;
+			children = (
+				CD3CD36C263D78C600A2366D /* AppDelegate.swift */,
+				CD3CD36E263D78C600A2366D /* SceneDelegate.swift */,
+				CD3CD372263D78C600A2366D /* Main.storyboard */,
+				CD3CD375263D78C700A2366D /* Assets.xcassets */,
+				CD3CD377263D78C700A2366D /* LaunchScreen.storyboard */,
+				CD7D9F2B2641370F00FA12A1 /* client_359098432892-3n6nm1r3oakk1r4136uksa1kc9gsrldc.apps.googleusercontent.com.plist */,
+				CD3CD37A263D78C700A2366D /* Info.plist */,
+				CD3CD370263D78C600A2366D /* ViewController.swift */,
+				F24257122643FB75003E5DA4 /* RootListViewController.swift */,
+				F24257152643FD7D003E5DA4 /* RootListTableViewCell.swift */,
+				F29CB8DB2645606B001E7D8B /* RootListCollectionViewCell.swift */,
+				F24257182644E4AE003E5DA4 /* ChildListViewController.swift */,
+				F242571B2644E4C3003E5DA4 /* ChildListTableViewCell.swift */,
+				F29CB8DE26465F51001E7D8B /* ChildListCollectionViewCell.swift */,
+			);
+			path = ReaddleTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD3CD368263D78C600A2366D /* ReaddleTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3CD37D263D78C700A2366D /* Build configuration list for PBXNativeTarget "ReaddleTest" */;
+			buildPhases = (
+				BCEF81138183A999B0A4C199 /* [CP] Check Pods Manifest.lock */,
+				CD3CD365263D78C600A2366D /* Sources */,
+				CD3CD366263D78C600A2366D /* Frameworks */,
+				CD3CD367263D78C600A2366D /* Resources */,
+				A86338AACF202D5EDCE8B4D2 /* [CP] Embed Pods Frameworks */,
+				056837704A5BA2F1EEF82991 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReaddleTest;
+			productName = ReaddleTest;
+			productReference = CD3CD369263D78C600A2366D /* ReaddleTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD3CD361263D78C600A2366D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					CD3CD368263D78C600A2366D = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = CD3CD364263D78C600A2366D /* Build configuration list for PBXProject "ReaddleTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD3CD360263D78C600A2366D;
+			productRefGroup = CD3CD36A263D78C600A2366D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD3CD368263D78C600A2366D /* ReaddleTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD3CD367263D78C600A2366D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3CD379263D78C700A2366D /* LaunchScreen.storyboard in Resources */,
+				CD3CD376263D78C700A2366D /* Assets.xcassets in Resources */,
+				CD7D9F2C2641370F00FA12A1 /* client_359098432892-3n6nm1r3oakk1r4136uksa1kc9gsrldc.apps.googleusercontent.com.plist in Resources */,
+				CD3CD374263D78C600A2366D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		056837704A5BA2F1EEF82991 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReaddleTest/Pods-ReaddleTest-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReaddleTest/Pods-ReaddleTest-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReaddleTest/Pods-ReaddleTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A86338AACF202D5EDCE8B4D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReaddleTest/Pods-ReaddleTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReaddleTest/Pods-ReaddleTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReaddleTest/Pods-ReaddleTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCEF81138183A999B0A4C199 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReaddleTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD3CD365263D78C600A2366D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29CB8DF26465F52001E7D8B /* ChildListCollectionViewCell.swift in Sources */,
+				CD3CD371263D78C600A2366D /* ViewController.swift in Sources */,
+				F242571C2644E4C3003E5DA4 /* ChildListTableViewCell.swift in Sources */,
+				CD3CD36D263D78C600A2366D /* AppDelegate.swift in Sources */,
+				F24257132643FB75003E5DA4 /* RootListViewController.swift in Sources */,
+				F29CB8DC2645606B001E7D8B /* RootListCollectionViewCell.swift in Sources */,
+				CD3CD36F263D78C600A2366D /* SceneDelegate.swift in Sources */,
+				F24257162643FD7D003E5DA4 /* RootListTableViewCell.swift in Sources */,
+				F24257192644E4AE003E5DA4 /* ChildListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD3CD372263D78C600A2366D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD3CD373263D78C600A2366D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD3CD377263D78C700A2366D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD3CD378263D78C700A2366D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD3CD37B263D78C700A2366D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD3CD37C263D78C700A2366D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD3CD37E263D78C700A2366D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94D0426EE6984554D146B883 /* Pods-ReaddleTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReaddleTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gillz.ReaddleTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD3CD37F263D78C700A2366D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEDEE85F011E78A3562E3E59 /* Pods-ReaddleTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReaddleTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gillz.ReaddleTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD3CD364263D78C600A2366D /* Build configuration list for PBXProject "ReaddleTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3CD37B263D78C700A2366D /* Debug */,
+				CD3CD37C263D78C700A2366D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3CD37D263D78C700A2366D /* Build configuration list for PBXNativeTarget "ReaddleTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3CD37E263D78C700A2366D /* Debug */,
+				CD3CD37F263D78C700A2366D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD3CD361263D78C600A2366D /* Project object */;
+}

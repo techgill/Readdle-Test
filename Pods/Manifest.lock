@@ -1,0 +1,53 @@
+PODS:
+  - GoogleAPIClientForREST/Core (1.2.1):
+    - GTMSessionFetcher (>= 1.1.7)
+  - GoogleAPIClientForREST/Drive (1.2.1):
+    - GoogleAPIClientForREST/Core
+    - GTMSessionFetcher (>= 1.1.7)
+  - GoogleSignIn (4.1.2):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMOAuth2 (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.3.1):
+    - GoogleToolboxForMac/Defines (= 2.3.1)
+  - GoogleToolboxForMac/Defines (2.3.1)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.3.1)":
+    - GoogleToolboxForMac/DebugUtils (= 2.3.1)
+    - GoogleToolboxForMac/Defines (= 2.3.1)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.3.1)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.3.1)"
+  - GTMOAuth2 (1.1.6):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.4.0):
+    - GTMSessionFetcher/Full (= 1.4.0)
+  - GTMSessionFetcher/Core (1.4.0)
+  - GTMSessionFetcher/Full (1.4.0):
+    - GTMSessionFetcher/Core (= 1.4.0)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - GoogleAPIClientForREST/Drive (~> 1.2.1)
+  - GoogleSignIn (~> 4.1.1)
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - GoogleAPIClientForREST
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GTMOAuth2
+    - GTMSessionFetcher
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  GoogleAPIClientForREST: a8b95a252014ce2e618df6b75dc72eca2c00b4af
+  GoogleSignIn: d9ef55b10f0aa401a5de2747f59b725e4b9732ac
+  GoogleToolboxForMac: 471e0c05d39506e50e6398f46fa9a12ae0efeff9
+  GTMOAuth2: e8b6512c896235149df975c41d9a36c868ab7fba
+  GTMSessionFetcher: 6f5c8abbab8a9bce4bb3f057e317728ec6182b10
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: cc569d460650ecf6f1d57e075df9215333d3a2c2
+
+COCOAPODS: 1.9.1
